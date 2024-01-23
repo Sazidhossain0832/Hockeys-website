@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hockey website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- ================================= Header Start Here ===================================== -->
+    <header class="header_area">
+      <nav class="container max-w-[1170px] mx-auto px-4 lg:px-0 mt-7">
+        <div class="navbar  bg-white">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class=" menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ;">
+                <li><a class="text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Home</a></li>
+                <li><a class="text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">About</a></li>
+                <li><a class="text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Pages</a></li>
+                <li><a class="text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Blog</a></li>
+                <li><a class="text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Contact</a></li>
+              </ul>
+            </div>
+            <a class=" text-xl"><img src="assets/images/logo.png" alt=""></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="gap-x-[44px]  menu-horizontal px-1">
+                <li><a class=" text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Home</a></li>
+                <li><a class=" text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">About</a></li>
+                <li><a class=" text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Pages</a></li>
+                <li><a class=" text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Blog</a></li>
+                <li><a class=" text-[16px] font-semibold body-font hover:text-[#FF4240] duration-[.3s]" href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="flex justify-center items-center gap-x-3 ">
+                <i class="ri-search-line text-xl text-[#89898B]"></i>
+                <a class=" px-[24px] py-[12px] text-wrap text-xl font-bold body-font text-white bg-[#FF4240] rounded-lg hover:bg-red-600 duration-[.3s]">Get Ticket</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ================================= Header End Here ===================================== -->
+
+    <!-- ================================= Banner Start Here ===================================== -->
+    <section class="banner_area mt-14">
+        <div class="container max-w-[1170px] mx-auto relative p-6 ">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="assets/images/1.png" class="w-full" />                  
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="assets/images/4.png" class="w-full" />
+                </div>
+              </div>
+              <div class="lg:w-[556px] bg-black p-8 rounded-xl mt-5 lg:absolute right-[5%] bottom-[10%]">
+                <h2 class="text-2xl font-extrabold body-font text-white mb-4">Meet all the heroes from the field</h2>
+                <p class="text-sm font-medium body-font text-[#FFFFFF99] mb-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+              <div class="absolute flex justify-start transform -translate-y-1/2 lg:left-12 left-64 right-5 lg:bottom-[10%]  bottom-[44%] gap-2">
+                <a href="#slide1" class="btn btn-circle bg-black hover:bg-[#FF4240] border-none"><i class="ri-arrow-left-s-line text-2xl text-white"></i></a> 
+                <a href="#slide2" class="btn btn-circle bg-black hover:bg-[#FF4240] border-none"><i class="ri-arrow-right-s-line text-2xl text-white"></i></a>
+              </div>
+            </div>
+    </section>
+    <!-- ================================= Banner End Here ===================================== -->
+
+    <!-- ================================= Hockeys Club Start Here ===================================== -->
+    <section class="hockey_area my-[100px]">
+        <div class="container max-w-[1170px] mx-auto">
+            <div class="border-y-2 border-dashed py-8">
+                <h2 class="text-center text-4xl font-extrabold body-font text-[#131318] pb-6">Professional Hockeys Club</h2>
+                <p class="text-center text-[16px] font-medium body-font w-3/5 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="lg:flex justify-center items-center my-8">
+                <div class="text-center p-4">
+                    <div class="radial-progress text-[#FF4240] mb-4 rotate-180" style="--value:80;" role="progressbar "><span class="rotate-180 text-[20px] text-[#000] font-extrabold body-font">87%</span></div>
+                    <h2 class="text-xl font-semibold text-[#131318] body-font mb-4">Prayer Facility</h2>
+                    <p class=" text-[16px] font-medium body-font">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="radial-progress text-[#49D293] mb-4 rotate-180" style="--value:80;" role="progressbar "><span class="rotate-180 text-[20px] text-[#000] font-extrabold body-font">95%</span></div>
+                    <h2 class="text-xl font-semibold text-[#131318] body-font mb-4">Experienced Coach</h2>
+                    <p class=" text-[16px] font-medium body-font">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="radial-progress text-[#FFB546] mb-4 rotate-180" style="--value:80;" role="progressbar "><span class="rotate-180 text-[20px] text-[#000] font-extrabold body-font">90%</span></div>
+                    <h2 class="text-xl font-semibold text-[#131318] body-font mb-4">Senior Player</h2>
+                    <p class=" text-[16px] font-medium body-font">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="radial-progress text-[#4C8DF1] mb-4 rotate-180" style="--value:80;" role="progressbar "><span class="rotate-180 text-[20px] text-[#000] font-extrabold body-font">80%</span></div>
+                    <h2 class="text-xl font-semibold text-[#131318] body-font mb-4">Training Ground</h2>
+                    <p class=" text-[16px] font-medium body-font">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Hockeys Club End Here ===================================== -->
+
+    <!-- ================================= Program Start Here ===================================== -->
+        <section class="program_area">
+            <div class="container max-w-[1170px] mx-auto">
+                <div class="border-y-2 border-dashed py-5">
+                    <h2 class="text-center text-4xl font-extrabold body-font text-[#131318] pb-6">Program Sections</h2>
+                    <p class="text-center text-[16px] font-medium body-font w-3/5 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="py-14 space-y-4 ">
+                    <div class="grid lg:grid-cols-2 justify-center grid-cols-1 lg:gap-x-8 px-6 lg:p-0 space-y-4 lg:space-y-0 ">
+                        <div class="bg-[url('assets/images/2.png')] bg-no-repeat bg-top-center  bg-cover rounded-xl lg:w-[573px] lg:h-[338px] px-10 pt-[95px] pb-[50px]">
+                            <h2 class="text-white text-[28px] font-extrabold body-font mb-4">Junior Program</h2>
+                            <p class="text-white text-[16px] font-medium body-font mb-4">Hockey is a fast-paced and exhilarating sport that captivates fans around the world. Played on an ice rink, teams of skaters maneuver across the surface with speed and precision, armed </p>
+                            <button class="text-wrap text-white body-font py-[10px] px-[22px] bg-[#FF4240] rounded-lg "> Register Now!</button>
+                        </div>
+                        <div class="bg-[url('assets/images/3.png')] bg-no-repeat bg-top-center bg-cover rounded-xl lg:w-[573px] lg:h-[338px] px-10 pt-[95px] pb-[50px]">
+                            <h2 class="text-white text-[28px] font-extrabold body-font mb-4">Junior Program</h2>
+                            <p class="text-white text-[16px] font-medium body-font mb-4">Hockey is a fast-paced and exhilarating sport that captivates fans around the world. Played on an ice rink, teams of skaters maneuver across the surface with speed and precision, armed </p>
+                            <button class="text-wrap text-white body-font py-[10px] px-[22px] bg-[#FF4240] rounded-lg "> Register Now!</button>
+                        </div>
+                    </div>
+                    <div class="grid lg:grid-cols-1 grid-cols-1 px-6 lg:p-0 justify-center ">
+                        <div class="bg-[url('assets/images/4.png')] bg-no-repeat bg-top-center  bg-cover rounded-xl lg:h-[450px] h-[338px] lg:w-full lg:pt-[207px] lg:pb-[40px] px-10 pt-[95px] pb-[50px]">
+                            <h2 class="text-white text-[28px] font-extrabold body-font mb-4">Junior Program</h2>
+                            <p class="text-white text-[16px] font-medium body-font mb-4 lg:w-[573px] ">Hockey is a fast-paced and exhilarating sport that captivates fans around the world. Played on an ice rink, teams of skaters maneuver across the surface with speed and precision, armed </p>
+                            <button class="text-wrap text-white body-font py-[10px] px-[22px] bg-[#FF4240] rounded-lg "> Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ================================= Program End Here ===================================== -->
+
+    <!-- ================================= Products Start Here ===================================== -->
+     <section class="product_area my-[100px]">
+      <div class="container max-w-[1170px] mx-auto p-6">
+        <div class="border-y-2 border-dashed py-8">
+            <h2 class="text-center text-4xl font-extrabold body-font text-[#131318] pb-6">Our New Products</h2>
+            <p class="text-center text-[16px] font-medium body-font w-3/5 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+
+    <!-- ================================= Products End Here ===================================== -->
+
+    <!-- ================================= Clients Start Here ===================================== -->
+    <section class="client_area my-[100px]">
+        <div class="container max-w-[1170px] mx-auto p-6">
+            <div class="border-y-2 border-dashed py-8 mb-14">
+                <h2 class="text-center text-4xl font-extrabold body-font text-[#131318] pb-6">Clients Question</h2>
+                <p class="text-center text-[16px] font-medium body-font w-3/5 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid lg:grid-cols-2 grid-cols-1 justify-center items-start p-8  border-solid border-2 rounded-xl border-[rgba(19, 19,24,0.10);]">
+                <div class=" flex justify-center">
+                    <img src="assets/images/11.png" alt="">
+                </div>
+                <div class="bg-white">
+                    <div class="collapse collapse-plus bg-white">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium border-b border-solid border-[rgba(19, 19,24,0.10);] rounded-none">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Traveling is a transformative experience that opens doors to new perspectives, cultures, and landscapes. It is an exploration of the unknown, a journey into the heart of diversity. Whether wandering through bustling city streets, navigating remote natural </p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-plus bg-white border-b border-solid border-[rgba(19, 19,24,0.10);] rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Traveling is a transformative experience that opens doors to new perspectives, cultures, and landscapes. It is an exploration of the unknown, a journey into the heart of diversity. Whether wandering through bustling city streets, navigating remote natural </p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-plus bg-white border-b border-solid border-[rgba(19, 19,24,0.10);] rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Traveling is a transformative experience that opens doors to new perspectives, cultures, and landscapes. It is an exploration of the unknown, a journey into the heart of diversity. Whether wandering through bustling city streets, navigating remote natural </p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-plus bg-white border-b border-solid border-[rgba(19, 19,24,0.10);] rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Traveling is a transformative experience that opens doors to new perspectives, cultures, and landscapes. It is an exploration of the unknown, a journey into the heart of diversity. Whether wandering through bustling city streets, navigating remote natural </p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-plus bg-white border-b border-solid border-[rgba(19, 19,24,0.10);] rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Booking
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Traveling is a transformative experience that opens doors to new perspectives, cultures, and landscapes. It is an exploration of the unknown, a journey into the heart of diversity. Whether wandering through bustling city streets, navigating remote natural </p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-plus bg-white border-b border-solid border-[rgba(19, 19,24,0.10);] rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Pricings
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Traveling is a transformative experience that opens doors to new perspectives, cultures, and landscapes. It is an exploration of the unknown, a journey into the heart of diversity. Whether wandering through bustling city streets, navigating remote natural </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================= Clients End Here ===================================== -->
+
+    <!-- ================================= contact Start Here ===================================== -->
+    <section class="contact_area">
+        <div class="container max-w-[1170px] mx-auto p-6">
+            <div class="border-y-2 border-dashed py-8 mb-14">
+                <h2 class="text-center text-4xl font-extrabold body-font text-[#131318] pb-6">Get In Touch</h2>
+                <p class="text-center text-[16px] font-medium body-font w-3/5 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-2 lg:space-x-5">
+                <div class=" p-10 space-y-5 border-2 border-solid border-[rgba(19, 19,24,0.10);] rounded-xl ">
+                    <div class="bg-[rgba(188,237,109,0.10);] p-9 rounded-xl">
+                        <div class="mb-5"><img src="assets/images/icon-01.png" alt=""></div>
+                        <h2><a class="text-sm font-medium text-[rgba(19,19,24,0.40);]" href="#">Phone Number :</a></h2>
+                        <h3><a class="text-lg font-extrabold text-[#131318] body-font" href="#">(+62) 123-321-543</a></h3>
+                    </div>
+                    <div class="bg-[rgba(253,221,95,0.10);] p-9 rounded-xl">
+                        <div class="mb-5"><img src="assets/images/icon-02.png" alt=""></div>
+                        <h2><a class="text-sm font-medium text-[rgba(19,19,24,0.40);]" href="#">Email :</a></h2>
+                        <h3><a class="text-lg font-extrabold text-[#131318] body-font" href="#">hockeys@support.com</a></h3>
+                    </div>
+                    <div class="bg-[rgba(98,156,243,0.10);] p-9 rounded-xl">
+                        <div class="mb-5"><img src="assets/images/icon-03.png" alt=""></div>
+                        <h2><a class="text-sm font-medium text-[rgba(19,19,24,0.40);]" href="#">Location :</a></h2>
+                        <h3><a class="text-lg font-extrabold text-[#131318] body-font" href="#"> 552/1Mohakhali Wireless Gate</a></h3>
+                    </div>
+                </div>
+                <div class=" rounded-xl  p-3 lg:p-0">
+                    <form class="grid grid-cols-2 justify-start space-x-2 gap-3 py-1">
+                        <div>
+                        <label class="text-xl font-bold body-font p-2">First name</label><br>
+                        <input class="p-5 w-[100%] bg-[rgba(19,19,24,0.03);] rounded-xl mt-4" type="text"  name="name" placeholder="Enter your full name"><br>
+                        </div>
+                        <div>
+                        <label class="text-xl font-bold body-font p-2">Your Email</label><br>
+                        <input class="p-5 w-[100%] bg-[rgba(19,19,24,0.03);] rounded-xl mt-4" type="email"  name="email" placeholder="Enter your email"><br>
+                        </div>
+                        <div>
+                        <label class="text-xl font-bold body-font p-2">Subject</label><br>
+                        <input class="p-5 w-[100%] bg-[rgba(19,19,24,0.03);] rounded-xl mt-4" type="subject"  name="name" placeholder="Enter your subject"><br>
+                        </div>
+                        <div>
+                        <label class="text-xl font-bold body-font p-2">Phone Number</label><br>
+                        <input class="p-5 w-[100%] bg-[rgba(19,19,24,0.03);] rounded-xl mt-4" type="text"  name="" placeholder="Enter your phone number"><br>
+                        </div>
+                        <div class="col-span-2">
+                        <label class="text-xl font-bold body-font p-2">Message</label><br>
+                        <textarea class="p-5 w-[100%] bg-[rgba(19,19,24,0.03);] rounded-xl mt-4 min-h-[370px] max-w-" type="message"  name="name" placeholder="Enter your phone number"></textarea><br>
+                        </div>
+                        <div class="col-span-2">
+                         <button class="w-full bg-red-600 py-[15px] text-white rounded-xl" type="submit">Send Message</button>
+                        </div>
+                      </form> 
+                </div>
+            </div>
+            <div class="bg-[rgba(19,19,24,0.03);] rounded-xl py-9 my-10">
+                <h2 class="text-2xl font-extrabold body-font text-center mb-6">Social Media</h2>
+                <div class="">
+                    <ul class="flex justify-center">
+                        <li><a href="#"><i class="ri-twitter-fill text-3xl"></i></a></li>
+                        <li><a href="#"><i class="ri-facebook-fill text-3xl"></i></a></li>
+                        <li><a href="#"><i class="ri-instagram-line text-3xl"></i></a></li>
+                        <li><a href="#"><i class="ri-github-fill text-3xl"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ================================= contact End Here ===================================== -->
+
+    <!-- ================================= Footer Start Here ===================================== -->
+    
+    <!-- ================================= Footer End Here ===================================== -->
+</body>
+</html>
